@@ -18,9 +18,9 @@ We appreciate the reviewer's comment on this important point. As requested, we'v
 
 * Mean is the average of the ReTAG’s winning rates.
 
-[1] Guo, Zirui, et al. "Lightrag: Simple and fast retrieval-augmented generation." (2024).
+[1] Belem, Catarina G., et al. "From single to multi: How llms hallucinate in multi-document summarization." arXiv preprint arXiv:2410.13961 (2024).
 
-[2] Belem, Catarina G., et al. "From single to multi: How llms hallucinate in multi-document summarization." arXiv preprint arXiv:2410.13961 (2024).
+[2] Guo, Zirui, et al. "Lightrag: Simple and fast retrieval-augmented generation." (2024).
 
 > In Table 4, the inference time on the Podcast dataset has less improvement than on the News Articles dataset. It is better to have more explanation on this phenomenon in Section 4.2.
 
