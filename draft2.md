@@ -7,7 +7,7 @@ We sincerely thank the reviewer for the valuable and detailed feedback. Below, w
 We appreciate the reviewer's comment on this important point. As requested, we've verified the statistical significance of our comparisons against the baseline. Due to the high cost of GPT-4o, we used GPT-4o-mini, which is widely accepted to provide consistent assessments with GPT-4o [1, 2]. The table below presents the assessments for Podcast, with all p-values below 0.05, indicating strong statistical significance (over 95% confidence). We observed similar trends for News Articles and will include statistical significance analyses for all other experiments in our final version.
 
 |      |     Comp.      |       |         |     Div.      |       |         |     Emp.      |       |         |
-| Level | Mean | Z-value | p-value | Mean | Z-value | p-value | Mean | Z-value | p-value |
+| Level | Comp. Mean | Comp. Z-value | Comp. p-value | Div.  Mean | Div.  Z-value | Div. p-value | Emp. Mean | Emp. Z-value |Emp. p-value |
 |-------|------------|---------------|---------------|-----------|--------------|--------------|-----------|--------------|--------------|
 |   1   |   74.08    |    -5.82      | 2.87e-08      |  57.92    |   -2.17      | 0.0299       |  64.96    |   -3.64      | 5.36e-04     |
 |   2   |   87.92    |    -9.40      | 1.01e-19      |  74.16    |   -7.18      | 7.41e-12     |  81.92    |   -8.19      | 3.66e-15     |
