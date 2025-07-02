@@ -1,7 +1,7 @@
 # Response to  Reviewer mpzG
 
 We sincerely thank the reviewer for the valuable and detailed feedback. Below, we address each concern raised in the review.
-
+---
 > The author uses the winning rate to judge whether the proposed method has better performance on two datasets. However, such evaluation also requires reporting the p-value for verifying the statistical significance of the winning rate.
 
 We appreciate the reviewer's comment on this important point. As requested, we've verified the statistical significance of our comparisons against the baseline. Due to the high cost of GPT-4o, we used GPT-4o-mini, which is widely accepted to provide consistent assessments with GPT-4o [1, 2]. The table below presents the assessments for Podcast, with all p-values below 0.05, indicating strong statistical significance (over 95% confidence). We observed similar trends for News Articles and will include statistical significance analyses for all other experiments in our final version.
@@ -22,14 +22,17 @@ We appreciate the reviewer's comment on this important point. As requested, we'v
 
 [2] Guo, Zirui, et al. "Lightrag: Simple and fast retrieval-augmented generation."  (2024).
 
+---
 > In Table 4, the inference time on the Podcast dataset has less improvement than on the News Articles dataset. It is better to have more explanation on this phenomenon in Section 4.2.
 
 Compared to News Articles, Podcast covers a relatively narrow domain. As a result, the mined topics present different characteristics, as shown in Appendix Table 7. Specifically, the topics in Podcast significantly overlap with each other, leading to less effective content filtering and consequently, smaller improvements in inference time. In contrast, topics in News Articles more disjointly cover the broad domain of the dataset, allowing for more effective content filtering. Consequently, indexed graphs across topics in News Articles effectively filter out unrelated concepts, resulting in reduced graph sizes and ultimately leading to higher efficiency improvements. We will include this analysis in the final version.
 
+---
 > The author proposed to use "keyword expansion" to improve the RAG system. However, I found neither details of it in the paper nor a prompt in the appendix. In the appendix, I found a section repeated twice, "Question Keyword Extraction Prompt". Is "extraction" a typo for "expansion"? 
 
 Thank you for pointing out the typo. The term in the appendix should indeed be "expansion," not "extraction." In practice, we prompt an LLM to generate keywords related to the query. To ensure these keywords are relevant to the target corpus, we embed a detailed global description of the corpus, which is generated as outlined in Section 3.2.1. These generated keywords are then concatenated with the original query to enhance the BM25-based retrieval process.
 
+---
 > In the "Method" section, the authors used more than one page to introduce GraphRAG and its limitations at the beginning. This is for sure important for the intuition of the proposed method. However, I consider it is better to have a shorter subsection for introducing GraphRAGThe limitation of GraphRAG can be moved to the introduction.
 
 We appreciate your thoughtful suggestion and agree that reorganizing the "Method" section will allow us to better focus on our proposed approach. We'll implement this change in the camera-ready version, also making full use of the additional page.
