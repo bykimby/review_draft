@@ -33,12 +33,12 @@ Thank you for pointing this out. Our baseline is indeed the original GraphRAG. A
 Winning rates of ReTAG over LightGraphRAG:
 | Level | Comp. | Div. | Emp. | LightGraphRAG | ReTAG |
 |-------|-------|------|------|---------------|-------|
-|   1   | 66.0  | 61.6 | 49.6 |               | 1.98  |
-|   2   | 88.8  | 85.6 | 76.4 |               | 7.02  |
-|   3   | 86.8  | 82.0 | 70.4 |               | 7.09  |
+|   1   | 66.0  | 61.6 | 49.6 |   1.52        | 1.98  |
+|   2   | 88.8  | 85.6 | 76.4 |   1.52        | 7.02  |
+|   3   | 86.8  | 82.0 | 70.4 |   1.52        | 7.09  |
 |   4   | 86.8  | 82.0 | 74.8 |   1.52        | 7.06  |
-|   5   | 88.0  | 82.0 | 68.4 |               | 7.07  |
-|   6   | 92.7  | 84.3 | 68.5 |               | 7.02  |
+|   5   | 88.0  | 82.0 | 68.4 |   1.52        | 7.07  |
+|   6   | 92.7  | 84.3 | 68.5 |   1.52        | 7.02  |
 
 > In Table 1, does "w/ TA" imply that topic information is used to update the node representations, thereby reducing the number of nodes and edges? Please clarify.
 
