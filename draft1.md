@@ -13,7 +13,7 @@ As noted in the limitations, graph indexing introduces overhead. Per request, we
 | Baseline Inference Time at Level 6 (sec) | 20.28      | 77.96         |
 | ReTAG Inference Time at Level 6 (sec) | 7.02       | 7.56          |
 
-> A lack of awareness about critical scientific issues Lack of Case Study: It would be helpful to include a detailed case analysis showing the end-to-end prediction process for a sample query, which can better illustrate the effectiveness of the topic-enhanced components.
+> A lack of awareness about critical scientific issues Lack of Case Study: It would be helpful to include a detailed case analysis showing the **end-to-end** prediction process for a sample query, which can better illustrate the **effectiveness of the topic-enhanced components**.
 
 We appreciate the reviewer's suggestion for including case studies of individual examples.
 As described in Section 3.1.4, GraphRAG uses a single, general graph for the entire corpus. This approach inherently leads to a loss of detailed information in summaries, making it difficult to generate specific answers. In contrast, ReTAG can maintain these details because each graph is dedicated to a single topic.
