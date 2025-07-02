@@ -18,7 +18,7 @@ We appreciate the reviewer's comment on this important point. As requested, we'v
 
 * Mean is the average of the ReTAG’s winning rates.
 
-[1] Belem, Catarina G., et al. "From single to multi: How llms hallucinate in multi-document summarization." arXiv preprint arXiv:2410.13961 (2024).
+[1] Belem, Catarina G., et al. "From single to multi: How llms hallucinate in multi-document summarization." In NAACL Findings 2025.
 
 [2] Guo, Zirui, et al. "Lightrag: Simple and fast retrieval-augmented generation." (2024).
 
